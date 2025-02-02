@@ -5,9 +5,16 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizPlatform.Api", "QuizPlatform.Api\QuizPlatform.Api.csproj", "{210F71FE-E2C4-4A2B-ACDB-ACFCC958E045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizPlatform.AppHost", "QuizPlatform.AppHost\QuizPlatform.AppHost.csproj", "{E7B48823-9ADB-4255-B3DD-20F3AEC43B7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizPlatform.AppHost", "QuizPlatform.AppHost\QuizPlatform.AppHost.csproj", "{E7B48823-9ADB-4255-B3DD-20F3AEC43B7A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizPlatform.ServiceDefaults", "QuizPlatform.ServiceDefaults\QuizPlatform.ServiceDefaults.csproj", "{8741E10F-9CA4-4D94-BF7A-CD5DA4E2F80A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64E74B92-CA14-46A5-BF88-06D898BFBD6D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
