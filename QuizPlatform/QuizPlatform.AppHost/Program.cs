@@ -1,5 +1,9 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.AddProject<Projects.QuizPlatform_Api>("quizplatform-api");
+var postgres = builder.AddPostgres("QuizPlatform-postgres");
 
-builder.Build().Run();
+builder.AddProject<Projects.QuizPlatform_Api>("quizplatform-api")
+    .WithReference(postgres)
+    .WaitFor(postgres);
+
+await builder.Build().RunAsync();
