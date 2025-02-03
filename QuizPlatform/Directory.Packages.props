@@ -1,12 +1,13 @@
 ﻿<Project>
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-	<AspireHosting>9.0.0</AspireHosting>
+    <AspireHosting>9.0.0</AspireHosting>
   </PropertyGroup>
-  <ItemGroup>	  
-	  <PackageVersion Include="Aspire.Hosting" Version="$(AspireHosting)" />
+  <ItemGroup>
+    <PackageVersion Include="Aspire.Hosting" Version="$(AspireHosting)" />
     <PackageVersion Include="Aspire.Hosting.AppHost" Version="$(AspireHosting)" />
     <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="$(AspireHosting)" />
+    <PackageVersion Include="MediatR" Version="12.4.1" />
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5" />
     <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.6.0.109712" />
